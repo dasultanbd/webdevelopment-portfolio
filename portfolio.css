@@ -230,12 +230,55 @@ section {}
 
 .resume-item-des {
     color: #757575;
-    font-size: 16px;l;
+    font-size: 16px;
+    l;
     font-weight: 400;
 }
-.resume-contanier hr{
+
+.resume-contanier hr {
     margin: 15px;
 }
-.downloadcv{
+
+.downloadcv {
     text-align: center;
+}
+
+/* footer sec */
+
+.footer-title {
+    text-align: left;
+
+}
+
+.footer-des {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    max-width: 470px;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.fotter-column {
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: #757575;
+    background: white;
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
 }
