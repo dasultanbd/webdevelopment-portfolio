@@ -42,10 +42,12 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
-nav h3{
+
+nav h3 {
     font-size: 45px;
     font-weight: bolder;
-} 
+}
+
 .nav title {
     color: black;
     font-size: 45px;
@@ -142,11 +144,34 @@ main {
 }
 
 .info-title {
-    color:  #474747;
+    color: #474747;
     font-size: 20px;
     font-weight: 700;
     margin-top: 0;
 }
-.info-des{
+
+.info-des {
     margin-bottom: 5px;
 }
+
+/* section  */
+section {
+ text-align: center;
+
+
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-des {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 150px;
+   }
